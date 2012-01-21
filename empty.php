@@ -1,0 +1,1 @@
+<?phpsession_start();session_destroy();print "Cart has been emptyed";print "<br/><br/>";print "<input type=\"button\" name=\"goback\" value=\"Back to Cart\" onclick=\"location.href='cart.php'\">";print "<script language='javascript'>parent.rtop.location.href='item.php'; </script>";?>
